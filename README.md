@@ -1,6 +1,6 @@
-# IntelliQuest System
+# IntelliQuestSystem
 ## Introduction
-IntelliQuest System est un plugin Unity robuste et flexible conçu pour permettre aux développeurs de créer des missions et des quêtes complexes et engageantes. Avec une interface utilisateur intuitive et un puissant backend programmable, IntelliQuest offre un équilibre parfait entre facilité d'utilisation et contrôle pour les développeurs de tous niveaux.
+IntelliQuestSystem est un plugin Unity robuste et flexible conçu pour permettre aux développeurs de créer des missions et des quêtes complexes et engageantes. Avec une interface utilisateur intuitive et un puissant backend programmable, IntelliQuest offre un équilibre parfait entre facilité d'utilisation et contrôle pour les développeurs de tous niveaux.
 
 ## Caractéristiques
 - Création Facile de Quêtes : Créez des quêtes rapidement grâce à notre éditeur graphique.
@@ -14,7 +14,7 @@ IntelliQuest System est un plugin Unity robuste et flexible conçu pour permettr
 
 ## Utilisation
 ### Ajout d'une Quête
-1. Ouvrez le panneau IntelliQuest via Window > IntelliQuest Editor.
+1. Ouvrez le panneau IntelliQuestSystem via Window > IntelliQuestSystem Editor.
 2. Cliquez sur New Quest et remplissez les détails.
 3. Ajoutez des objectifs et des récompenses selon vos besoins.
 4. Sauvegardez la quête et utilisez-la dans votre jeu.
@@ -24,7 +24,7 @@ Vous pouvez également interagir avec les quêtes via l'API:
 
 ```csharp
 QuestManager questManager = FindObjectOfType<QuestManager>();
-questManager.AddQuest(new Quest("Find the Treasure", "Find the hidden treasure in the cave", 100));
+questManager.AddQuest(new Quest("Trouve le trésor caché", "Trouve le trésor caché au fond de la cave mystérieuse", 100));
 ```
 
 Voir `API_REFERENCE.md` pour la documentation complète de l'API.
